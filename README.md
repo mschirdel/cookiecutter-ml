@@ -26,7 +26,7 @@ $ conda install cookiecutter
 ### To start a new project, run:
 ------------
 
-    python3 -m cookiecutter -c master https://github.com/MahdyShirdel/cookiecutter-ml.git
+    python3 -m cookiecutter -c main https://github.com/MahdyShirdel/cookiecutter-ml.git
 
 ### The resulting directory structure
 ------------
