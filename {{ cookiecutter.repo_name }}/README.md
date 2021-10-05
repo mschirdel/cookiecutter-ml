@@ -1,39 +1,19 @@
-# Cookiecutter Machine Learning 
+{{cookiecutter.project_name}}
+==============================
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+{{cookiecutter.description}}
 
-This repository has been forked from the following homepage.
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+Project Requirements
+---------------------
 
+{{cookiecutter.requirements}}
 
-### Requirements to use the cookiecutter template:
------------
- - Python 2.7 or 3.5+
- - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
+Project Convention
+------------------
+This project follows the MLGroup project development conventions. Please refer this link to find all the project setup and development conventions.
 
-``` bash
-$ pip install cookiecutter
-```
-
-or
-
-``` bash
-$ conda config --add channels conda-forge
-$ conda install cookiecutter
-```
-
-
-### To start a new project, run:
-------------
-
-    python3 -m cookiecutter -c master https://github.com/MahdyShirdel/cookiecutter-ml.git
-
-### The resulting directory structure
-------------
-
-The directory structure of your new project looks like this: 
-
-```
+Project Organization
+--------------------
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -86,15 +66,3 @@ The directory structure of your new project looks like this:
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
-
-```
-
-### Installing development requirements
-------------
-
-    pip install -r requirements.txt
-
-### Running the tests
-------------
-
-    py.test tests
